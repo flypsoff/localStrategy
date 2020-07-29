@@ -1,2 +1,2 @@
-console.log('aaaaaaaaaaaaa')
+console.log('git pull')
 console.log('hello')

@@ -15,7 +15,7 @@ const UserSchema =  mongoose.Schema({
     password: {
         type: String,
         required: true
-    }
+    } 
 })
 
 // We will use our UserSchema with collection name "accounts" 

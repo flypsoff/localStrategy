@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/flypsoff/localStrategy/issues"
   },
-  "homepage": "https://github.com/flypsoff/localStrategy#readme"
+  "homepage": "https://github.com/flypsoff/localStrategy#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1"
+  }
 }

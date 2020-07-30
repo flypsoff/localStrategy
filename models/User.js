@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-// creating user with Schema
+// using mongoose and creating user by Schema 
 const UserSchema =  mongoose.Schema({
     username: {
         type: String,
@@ -15,7 +15,7 @@ const UserSchema =  mongoose.Schema({
     password: {
         type: String,
         required: true
-    } 
+    }
 })
 
 // We will use our UserSchema with collection name "accounts" 
